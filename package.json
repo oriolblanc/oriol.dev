@@ -1,0 +1,29 @@
+{
+  "name": "oriol.dev",
+  "version": "0.1",
+  "description": "Oriol's Personal Website",
+  "main": "index.js",
+  "repository": "https://github.com/oriolblanc/oriol.dev",
+  "author": "Oriol Blanc",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog": "^2.3.9",
+    "gatsby": "^2.20.36",
+    "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-netlify": "^2.1.3",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-sitemap": "^2.2.19",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
